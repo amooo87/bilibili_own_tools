@@ -79,7 +79,7 @@ class UP:
         print("播放量:\t"+str(self.__playsum))
 
 if __name__ == "__main__":
-    #mid = 37663924
+    #mid = 140425376
     mid = int(input("UID:"))
     UP_struct = UP(mid)
     UP_struct.show()
